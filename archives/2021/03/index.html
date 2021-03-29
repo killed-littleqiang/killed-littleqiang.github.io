@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="小强的博客">
-    <title>Archives: 2021/3 - 小强的博客</title>
+    <title>Archivos: 2021/3 - 小强的博客</title>
     <meta name="author" content="刘海祥">
     
     
@@ -64,7 +64,7 @@
             <a
                 class="header-right-picture "
                 href="#about"
-                aria-label="Open the link: /#about"
+                aria-label="Abre el enlace: /#about"
             >
         
         
@@ -88,10 +88,10 @@
                             href="/"
                             
                             rel="noopener"
-                            title="Home"
+                            title="Inicio"
                         >
                         <i class="sidebar-button-icon fa fa-home" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Home</span>
+                        <span class="sidebar-button-desc">Inicio</span>
                     </a>
             </li>
             
@@ -102,10 +102,10 @@
                             href="/all-categories"
                             
                             rel="noopener"
-                            title="Categories"
+                            title="Categorías"
                         >
                         <i class="sidebar-button-icon fa fa-bookmark" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Categories</span>
+                        <span class="sidebar-button-desc">Categorías</span>
                     </a>
             </li>
             
@@ -116,10 +116,10 @@
                             href="/all-tags"
                             
                             rel="noopener"
-                            title="Tags"
+                            title="Etiquetas"
                         >
                         <i class="sidebar-button-icon fa fa-tags" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Tags</span>
+                        <span class="sidebar-button-desc">Etiquetas</span>
                     </a>
             </li>
             
@@ -130,10 +130,10 @@
                             href="/all-archives"
                             
                             rel="noopener"
-                            title="Archives"
+                            title="Archivos"
                         >
                         <i class="sidebar-button-icon fa fa-archive" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Archives</span>
+                        <span class="sidebar-button-desc">Archivos</span>
                     </a>
             </li>
             
@@ -144,10 +144,10 @@
                             href="#search"
                             
                             rel="noopener"
-                            title="Search"
+                            title="Buscar"
                         >
                         <i class="sidebar-button-icon fa fa-search" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Search</span>
+                        <span class="sidebar-button-desc">Buscar</span>
                     </a>
             </li>
             
@@ -158,10 +158,10 @@
                             href="#about"
                             
                             rel="noopener"
-                            title="About"
+                            title="Acerca de"
                         >
                         <i class="sidebar-button-icon fa fa-question" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">About</span>
+                        <span class="sidebar-button-desc">Acerca de</span>
                     </a>
             </li>
             
@@ -208,10 +208,10 @@
                             href="/mailto"
                             
                             rel="noopener"
-                            title="Mail"
+                            title="Correo"
                         >
                         <i class="sidebar-button-icon fa fa-envelope" aria-hidden="true"></i>
-                        <span class="sidebar-button-desc">Mail</span>
+                        <span class="sidebar-button-desc">Correo</span>
                     </a>
             </li>
             
@@ -255,6 +255,72 @@
                     
                         <a
                             class="link-unstyled"
+                            href="/2021/03/29/suanfa_1/"
+                            aria-label=": "
+                        >
+                            (sin título)
+                        </a>
+                    
+                </h1>
+                <div class="postShorten-meta">
+    <time datetime="2021-03-29T23:36:45+08:00">
+	
+		    29 3月 2021
+    	
+    </time>
+    
+</div>
+
+            </div>
+            
+                <div class="postShorten-content">
+                    <h1 id="基础算法"><a href="#基础算法" class="headerlink" title="基础算法"></a>基础算法</h1><h3 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h3><p>题目：给定你一个长度为 n的整数数列。</p>
+<p>请你使用快速排序对这个数列按照从小到大进行排序。</p>
+<p>并将排好序的数列按顺序输出。<br>样例：<br>输入样例：</p>
+<p>5</p>
+<p>3 1 2 4 5</p>
+<p>输出样例：</p>
+<p>1 2 3 4 5</p>
+<h4 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">package java001;</span><br><span class="line"></span><br><span class="line">import java.io.BufferedInputStream;</span><br><span class="line">&#x2F;&#x2F;快速排序</span><br><span class="line"></span><br><span class="line">import java.util.Scanner;</span><br><span class="line"></span><br><span class="line">public class Main &#123;</span><br><span class="line"></span><br><span class="line">	public static void main(String[] args) &#123;</span><br><span class="line">		Scanner sc&#x3D;new Scanner(new BufferedInputStream(System.in));</span><br><span class="line">		int n&#x3D;sc.nextInt();&#x2F;&#x2F;输入数据</span><br><span class="line">		&#x2F;&#x2F;创建数组来存储数据</span><br><span class="line">		int[] arr&#x3D;new int[n];</span><br><span class="line">		&#x2F;&#x2F;遍历</span><br><span class="line">		for (int i &#x3D; 0; i &lt; n; i++) &#123;</span><br><span class="line">			arr[i]&#x3D;sc.nextInt();</span><br><span class="line">		&#125;</span><br><span class="line">		quick_sort(arr,0,n-1);&#x2F;&#x2F;数组越界问题？</span><br><span class="line">		&#x2F;&#x2F;遍历输出</span><br><span class="line">		for (int i &#x3D; 0; i &lt; n; i++) &#123;</span><br><span class="line">			System.out.print(arr[i]+&quot; &quot;);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;&#x2F;&#x2F;快排模板</span><br><span class="line">		static void quick_sort(int[] q,int l,int r)</span><br><span class="line">		&#123;</span><br><span class="line">			if (l&gt;&#x3D;r) &#123;</span><br><span class="line">				return;</span><br><span class="line">			&#125;</span><br><span class="line">			int i&#x3D;l-1,j&#x3D;r+1;</span><br><span class="line">			int x&#x3D;q[(l+r)&#x2F;2];&#x2F;&#x2F;随机数组里面的平均值</span><br><span class="line">			while (i&lt;j) &#123;</span><br><span class="line">				&#x2F;&#x2F;垃圾刘海祥,一边去</span><br><span class="line">				do i++;while(q[i]&lt;x);&#x2F;&#x2F;while(q[++i]&lt;x)</span><br><span class="line">				do j--;while(q[j]&gt;x);&#x2F;&#x2F;while(q[--j]&gt;x)</span><br><span class="line">				if (i&lt;j) &#123;</span><br><span class="line">					int temp&#x3D;q[i];</span><br><span class="line">					q[i]&#x3D;q[j];</span><br><span class="line">					q[j]&#x3D;temp;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			quick_sort(q, l, j);&#x2F;&#x2F;递归处理左右两边,对称</span><br><span class="line">			quick_sort(q, j+1, r);</span><br><span class="line">		&#125;	</span><br><span class="line">	&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>###归并排序 ###<br>题目：给定你一个长度为 n的整数数列。</p>
+<p>请你使用归并排序对这个数列按照从小到大进行排序。</p>
+<p>并将排好序的数列按顺序输出</p>
+<h4 id="代码：-1"><a href="#代码：-1" class="headerlink" title="代码："></a>代码：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line">package java001;</span><br><span class="line"></span><br><span class="line">import java.util.Scanner;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;归并排序</span><br><span class="line">public class Main0 &#123;</span><br><span class="line"></span><br><span class="line">public static void main(String[] args) &#123;</span><br><span class="line"></span><br><span class="line">	Scanner sc&#x3D;new Scanner(System.in);</span><br><span class="line">	int n&#x3D;sc.nextInt();</span><br><span class="line">	int[] arr&#x3D;new int[n];</span><br><span class="line">	&#x2F;&#x2F;输入</span><br><span class="line">	for (int i &#x3D; 0; i &lt; n; i++) &#123;</span><br><span class="line">		arr[i]&#x3D;sc.nextInt();</span><br><span class="line">	&#125;</span><br><span class="line">	merge_sort(arr, 0, n-1);</span><br><span class="line">	&#x2F;&#x2F;遍历输出</span><br><span class="line">	for (int i &#x3D; 0; i &lt; n; i++) &#123;</span><br><span class="line">		System.out.print(arr[i]+&quot; &quot;);</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">public static void merge_sort(int[] q,int l,int r) &#123;</span><br><span class="line"></span><br><span class="line">	&#x2F;&#x2F;模板</span><br><span class="line">	int[] tmp&#x3D;new int[1000000];</span><br><span class="line">	if (l&gt;&#x3D;r) &#123;</span><br><span class="line">		return;</span><br><span class="line">	&#125;</span><br><span class="line">	int mid&#x3D;l+r&gt;&gt;1;&#x2F;&#x2F;相当于(l+r)&#x2F;2并且取整；一定不能取到l的边界上</span><br><span class="line">	&#x2F;&#x2F;数组的中间位置，下标值</span><br><span class="line">	merge_sort(q, l, mid);&#x2F;&#x2F;垃圾递归，左右递归</span><br><span class="line">	merge_sort(q, mid+1, r);              </span><br><span class="line">	int k&#x3D;0,i&#x3D;l,j&#x3D;mid+1;&#x2F;&#x2F;这里的i取l-1，可否</span><br><span class="line">	while(i&lt;&#x3D;mid&amp;&amp;j&lt;&#x3D;r)</span><br><span class="line">		&#x2F;&#x2F;每次将较小部分放进来</span><br><span class="line">		if (q[i]&lt;q[j]) &#123;</span><br><span class="line">			tmp[k++] &#x3D;q[i++];</span><br><span class="line">		&#125;else &#123;</span><br><span class="line">			tmp[k++]&#x3D;q[j++];</span><br><span class="line">		&#125;</span><br><span class="line">	&#x2F;&#x2F;如果循环完毕，则将剩余部分直接连在后面</span><br><span class="line">	&#x2F;&#x2F;什么是没有循环完毕？指针还在，没有出界</span><br><span class="line">	while (i&lt;&#x3D;mid) &#123;</span><br><span class="line">		tmp[k++]&#x3D;q[i++];</span><br><span class="line">	&#125;</span><br><span class="line">	while (j&lt;&#x3D;r) &#123;</span><br><span class="line">		tmp[k++]&#x3D;q[j++];</span><br><span class="line">	&#125;</span><br><span class="line">	&#x2F;&#x2F;将所有的结果存回有序序列中去</span><br><span class="line">	for (i&#x3D;l,j&#x3D;0;i&lt;&#x3D;r;i++,j++) &#123;</span><br><span class="line">		&#x2F;&#x2F;i&#x3D;l,l为left，左边界，q[]存储从L开始</span><br><span class="line">		q[i]&#x3D;tmp[j];</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="二分排序"><a href="#二分排序" class="headerlink" title="二分排序"></a>二分排序</h3><p>题目：给定一个按照升序排列的长度为 n 的整数数组，以及 q个查询。</p>
+<p>对于每个查询，返回一个元素 k的起始位置和终止位置（位置从 0开始计数）。</p>
+<p>如果数组中不存在该元素，则返回 -1 -1。</p>
+<h4 id="代码：-2"><a href="#代码：-2" class="headerlink" title="代码："></a>代码：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">package java001;</span><br><span class="line"></span><br><span class="line">import java.util.Scanner;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;二分排序</span><br><span class="line">public class Main1 &#123;</span><br><span class="line"></span><br><span class="line">	public static void main(String[] args) &#123;</span><br><span class="line">		Scanner sc&#x3D;new Scanner(System.in);</span><br><span class="line">		int n&#x3D;sc.nextInt();&#x2F;&#x2F;数组大小</span><br><span class="line">		int q&#x3D;sc.nextInt();&#x2F;&#x2F;进行的轮回</span><br><span class="line">		int[] arr&#x3D;new int[n];</span><br><span class="line">		&#x2F;&#x2F;遍历输入</span><br><span class="line">		for (int i &#x3D; 0; i &lt; n; i++) &#123;</span><br><span class="line">			arr[i]&#x3D;sc.nextInt();</span><br><span class="line">		&#125;</span><br><span class="line">		while (q--&gt;0) &#123;</span><br><span class="line">			int x&#x3D;sc.nextInt();&#x2F;&#x2F;查询的目标数据</span><br><span class="line">			int l&#x3D;0,r&#x3D;n-1;</span><br><span class="line">			while (l&lt;r) &#123;</span><br><span class="line">				int mid&#x3D;(l+r)&#x2F;2;</span><br><span class="line">				&#x2F;&#x2F;如果mid在x的右边，最后一个数大于x</span><br><span class="line">				if (arr[mid]&gt;&#x3D;x) &#123;</span><br><span class="line">					r&#x3D;mid;</span><br><span class="line">				&#125;else &#123;</span><br><span class="line">					l&#x3D;mid+1;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			&#x2F;&#x2F;如果找不到解</span><br><span class="line">			if (arr[l]!&#x3D;x) &#123;</span><br><span class="line">				System.out.println(&quot;-1 -1&quot;);&#x2F;&#x2F;粗心，函数使用错误</span><br><span class="line">			&#125;else &#123;</span><br><span class="line">				System.out.print(l+&quot; &quot;);</span><br><span class="line">				 l&#x3D;0;r&#x3D;n-1;</span><br><span class="line">				while (l&lt;r) &#123;</span><br><span class="line">					int mid&#x3D;(l+r+1)&#x2F;2;</span><br><span class="line">					&#x2F;&#x2F;如果mid在x的左边，第一个数大于x</span><br><span class="line">					if (arr[mid]&lt;&#x3D;x) &#123;</span><br><span class="line">						l&#x3D;mid;</span><br><span class="line">					&#125;else &#123;</span><br><span class="line">						r&#x3D;mid-1;</span><br><span class="line">					&#125;</span><br><span class="line">				&#125;</span><br><span class="line">				System.out.println(l);&#x2F;&#x2F;输出l和r都一样</span><br><span class="line">				&#x2F;&#x2F;关于输出还是懵逼中</span><br><span class="line">			&#125;</span><br><span class="line">			</span><br><span class="line">			</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">		</span><br><span class="line">		</span><br><span class="line">&#125;</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+                    
+                        
+
+
+                    
+                    
+                        <p>
+                            <a
+                                href="/2021/03/29/suanfa_1/#post-footer"
+                                class="postShorten-excerpt_link link"
+                                aria-label=""
+                            >
+                                Comentar y compartir
+                            </a>
+                        </p>
+                    
+                </div>
+            
+        </div>
+        
+    </article>
+    
+    
+    <article class="postShorten postShorten--thumbnailimg-bottom">
+        <div class="postShorten-wrap">
+            
+            <div class="postShorten-header">
+                <h1 class="postShorten-title">
+                    
+                        <a
+                            class="link-unstyled"
                             href="/2021/03/24/hello-world/"
                             aria-label=": 欢迎访问小强的个人blog，相关功能等我慢慢开发"
                         >
@@ -265,7 +331,7 @@
                 <div class="postShorten-meta">
     <time datetime="2021-03-24T19:36:19+08:00">
 	
-		    3月 24, 2021
+		    24 3月 2021
     	
     </time>
     
@@ -297,7 +363,7 @@
                                 class="postShorten-excerpt_link link"
                                 aria-label=""
                             >
-                                Comment and share
+                                Comentar y compartir
                             </a>
                         </p>
                     
@@ -311,7 +377,7 @@
     <ul class="pagination">
         
         
-        <li class="pagination-number">page 1 of 1</li>
+        <li class="pagination-number">página 1 de 1</li>
     </ul>
 </div>
 
